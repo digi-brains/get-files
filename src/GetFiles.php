@@ -4,25 +4,32 @@ namespace DigiBrains;
 
 class GetFiles {
 
-    private $files;
+    private $path;
+    private $order;
+    private $exclude;
 
-    public function __construct( $path = '' ) {
-        $this->files = [];    
-        foreach (array_diff(scandir($path), ['.', '..']) as $file) {
-            $this->files[$file] = filemtime($path . '/' . $file);
-        }
+    public function __construct( $path = '', $order = '', $exclude = '' ) {
+        $this->path = $path;
+        $this->order = $order;
+        $this->exclude = $exclude;
     }
 
-    public function sortDate( $direction = '' ) {
-        if ($direction == 'DESC') {
-            arsort($this->files); // newest first
-        } elseif ($direction == 'ASC') {
-            asort($this->files); // oldest first
+    public function sortDate() {
+        $files = [];    
+        foreach (array_diff(scandir($this->path), $this->exclude) as $file) {
+            $files[$file] = filemtime($this->path . '/' . $file);
+        }
+
+        if ($this->order == 'DESC') {
+            arsort($files); // newest first
+        } elseif ($this->order == 'ASC') {
+            asort($files); // oldest first
         } else {
             // alphabetical/default
         }
-        $this->files = array_keys($this->files);
-        print_r( ($this->files) ? $this->files : false);
+        $files = array_keys($files);
+
+        return json_encode($files);
     }
 
 }
