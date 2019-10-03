@@ -1,17 +1,17 @@
 {
-    "name": "digi-brains/get-files",
+    "name": "sageworksstudio/get-files",
     "description": "Gets a list of files from a directory",
     "keywords": [
         "git",
         "php"
     ],
-    "homepage": "https://github.com/digi-brains/get-files",
+    "homepage": "https://github.com/sageworksstudio/get-files",
     "license": "MIT",
     "authors": [
         {
             "name": "Chris Brown",
-            "email": "chris@digitalbrains.io",
-            "homepage": "https://github.com/digi-brains/get-files"
+            "email": "chris@sageworksstudio",
+            "homepage": "https://github.com/sageworksstusio/get-files"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DigiBrains\\": "src/"
+            "SageworksStudio\\": "src/"
         }
     }
 }

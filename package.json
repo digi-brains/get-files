@@ -3,16 +3,16 @@
   "description": "A simple PHP class to return a list of files from a directory.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digi-brains/get-files"
+    "url": "https://github.com/sageworksstudio/get-files"
   },
-  "homepage": "http://digi-brains.github.io/get-files",
+  "homepage": "https://sageworksstudio.github.io/get-files",
   "keywords": [
     "php",
     "files"
   ],
-  "author": "Chris Brown <chris@digitalbrains.io> (https://digitalbrains.io)",
+  "author": "Chris Brown <chris@sageworksstudio.com> (https://sageworksstudio.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digi-brains/get-files/issues"
+    "url": "https://github.com/sageworksstudio/get-files/issues"
   }
 }

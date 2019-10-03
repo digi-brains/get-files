@@ -1,12 +1,12 @@
-![](https://img.shields.io/github/release/digi-brains/get-files.svg?style=flat-square)
-![](https://img.shields.io/github/license/digi-brains/get-files.svg?style=flat-square)
-![](https://img.shields.io/github/issues/digi-brains/get-files.svg?style=flat-square)
+![](https://img.shields.io/github/release/sageworksstudio/get-files.svg?style=flat-square)
+![](https://img.shields.io/github/license/sageworksstudio/get-files.svg?style=flat-square)
+![](https://img.shields.io/github/issues/sageworksstudio/get-files.svg?style=flat-square)
 
 # GetFiles
 
 GetFiles is a simple PHP class to return a list of files in a directory.
 
-[Read The Documentation](https://digi-brains.github.io/get-files/)
+[Read The Documentation](https://sageworksstudio.github.io/get-files/)
 
 ### Installation
 
