@@ -6,7 +6,7 @@
 
 GetFiles is a simple PHP class to return a list of files in a directory.
 
-[Read The Documentation](https://github.com/sageworksstudio/get-files/tree/master/docs)
+[Read The Documentation](https://sageworksstudio.github.io/get-files/)
 
 ### Installation
 
